@@ -1,8 +1,17 @@
-  <a-scene>
-      <a-box position="-0.93 2.302 -2.698" rotation="0 45 0" color="##62d94a"></a-box>
-      <a-sphere position="1.131 0.662 -4.355" radius="0.5" color="#efdf2e"></a-sphere>
-      <a-cylinder position="´-0.87 1.040 -2.714" radius="1.25" height="1.5" color="#5c7cff"></a-cylinder>
-      <a-cylinder position="-0.87 1.040 -2.714" radius="1.25" height="1.5" color="#5c7cff"></a-cylinder>
-      <a-plane position="0 0 -4.010" rotation="-90 0 0" width="4" height="4" color="#c77a7a"></a-plane>
-      <a-sky color="#000000"></a-sky>
+ <html>
+ <head>
+<script src = "https://aframe.io/releases/1.7.1/aframe.min.js" > </script>
+ </head>
+  <body>
+   <a-scene>
+      <a-box position="0 0.1 0" rotation="0 0 0" scale="3 0.2 3" color="#9a9898"></a-box>
+      <a-box position="0 1.7 -1.4" rotation="0 90 90" scale="3 0.2 3" color="#e9d8d9"></a-box>
+        <a-box position="1.4 1.7 0" rotation="0 0 90" scale="3 0.2 3" color="#e4bebe"></a-box>
+        <a-box position="-0.5 0.45 0.5" rotation="0 45 0" scale="0.5 0.5 0.5" color="#d41620"></a-box>
+      <a-sphere position="0.5 0.7 0.75" radius="0.5" color="#3278c3"></a-sphere>
+      <a-cylinder position="´-0.2 1.2 -0.25" radius="0.25" height="1" color="#FFC65D"></a-cylinder>>
+      <a-cone position="0.7 0.8 -0.5" height="1" radius-bottom = "o.5" color="#7BC8A4"></> </a-cone>
+      <a-sky color="#ECECEC"></a-sky>
     </a-scene>
+</head>
+</html>
